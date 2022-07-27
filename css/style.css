@@ -32,7 +32,7 @@ h1.pokemon__data {
   right: 32%;
   position: absolute;
   top: 53.8%;
-  font-size: clamp(5px, 8vw, 25px);
+  font-size: clamp(5px, 20px, 25px);
 }
 
   span.pokemon__name {
