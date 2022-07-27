@@ -2,11 +2,13 @@ body {
   background: linear-gradient(to bottom, #6ab7f5, #fff);
   min-height: 100vh;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   display: inline-block;
-  margin-top: 1%;
   position: relative;
 }
 
@@ -41,8 +43,8 @@ h1.pokemon__data {
 form.formulario {
   position: absolute;
   top: 65%;
-  left: 22%;
-  width: 50%;
+  left: 23%;
+  width: 49%;
 }
 
   input.input__search { 
@@ -60,8 +62,8 @@ form.formulario {
 div.buttons {
   position: absolute;
   bottom: 13%;
-  left: 21%;
-  width: 52%;
+  left: 23%;
+  width: 50%;
   display: flex;
   gap: 15px;
 }
